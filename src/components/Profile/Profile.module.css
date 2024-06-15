@@ -1,0 +1,64 @@
+.container{
+ max-width: 300px;
+ width: 100%;
+ margin: 0 auto;
+ margin-top: 20px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ border: 2px solid black;
+ border-radius: 8px;
+ text-align: center;
+
+}
+
+.avatarImg{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(42, 42, 42);
+  border-radius: 54px;
+  margin: 0 auto;
+  margin-top: 10px;
+
+}
+
+.name{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.lightText{
+  margin-top: 15px;
+  color: gray;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.stats{
+  display: flex;
+  border-top: 2px solid grey;
+  background-color: lightgrey;
+  margin-top: 20px;
+}
+
+
+.statsEl{
+  text-align: center;
+  border-right: 2px solid grey;
+  padding: 10px;
+}
+
+.statsText{
+  font-size: 20px;
+}
+
+.statsElLast{
+  text-align: center;
+  padding: 10px;
+}
+.statsNumber{
+  font-weight: bold;
+  font-size: 21px;
+}

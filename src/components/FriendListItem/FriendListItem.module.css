@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1.5px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  max-width: 100px;
+  width: 100%;
+}
+
+.txtName {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.image {
+  margin-bottom: 15px;
+}
+
+.status {
+  font-size: 15px;
+  color: grey;
+}
+
+.isOnline{
+  color: green;
+}
+
+.isOffline {
+  color: red;
+}
